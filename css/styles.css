@@ -4,12 +4,27 @@
 
 /* Color Palette */
 
+.color-1 {
+ background: orange;
+}
+
+.color-2 {
+ background: green;   
+}
+
 
 /* Textures or Patterns*/
 
+.pattern-1 {
+background: url('../img/green_cup.png');
+}
 
 /* Imagery */
 
+.imagery-1 {
+
+
+}
 
 /* Icons */
 
