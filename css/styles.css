@@ -5,19 +5,32 @@
 /* Color Palette */
 
 .color-1 {
- background: orange;
+ background: dodgerblue;
 }
 
 .color-2 {
- background: green;   
+ background: saddlebrown;   
+}
+
+.color-3 {
+    background: wheat;
 }
 
 
 /* Textures or Patterns*/
 
 .pattern-1 {
-background: url('../img/green_cup.png');
+background: url('../img/notebook.png');
 }
+
+.pattern-2 {
+    background: url('../img/green_cup.png');
+}
+
+.pattern-3 {
+    background: url('../img/foggy_birds.png');
+}
+    
 
 /* Imagery */
 
@@ -28,6 +41,9 @@ background: url('../img/green_cup.png');
 
 /* Icons */
 
+.icon-1 {
+ background: url('../img/iconmonstr-pen-15-icon-256.png');   
+}
 
 /* Typography */
 
