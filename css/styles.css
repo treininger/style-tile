@@ -4,6 +4,7 @@
 
 /* Color Palette */
 
+/*
 .color-1 {
  background: dodgerblue;
 }
@@ -22,6 +23,27 @@
 
 .color-5 {
     background: darkolivegreen;
+}
+*/
+
+.color-1 {
+ background: rgb(228, 225, 242);
+}
+
+.color-2 {
+ background: rgb(6, 140, 189);   
+}
+
+.color-3 {
+    background: rgb(216, 155, 36);
+}
+
+.color-4 {
+    background: rgb(189, 123, 40);
+}
+
+.color-5 {
+    background: rgb(139, 85, 66);
 }
 
 /* Textures or Patterns*/
@@ -50,6 +72,12 @@ background: url('../img/notebook.png');
 
 .icon-1 {
  background: url('../img/iconmonstr-pen-15-icon-256.png');   
+}
+
+/* Navigation */
+
+nav li {
+    font-family: 'Dosis', sans-serif;
 }
 
 /* Typography */
