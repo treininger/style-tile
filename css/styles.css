@@ -27,7 +27,7 @@
 */
 
 .color-1 {
- background: rgb(228, 225, 242);
+ background: rgb(241, 243, 241);
 }
 
 .color-2 {
@@ -135,12 +135,46 @@ p {
 
 /* Forms */
 
+form {
+ background: white;
+border: 3px solid rgb(241, 243, 241);
+    border-radius: .5em;
+}
+
+label {
+    font-family: 'Dosis', sans-serif;
+    color: gray;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    border-radius: .5em;
+    background: rgb(241, 243, 241);
+}
+    
+
 
 /* Tables */
 
 table {
-    border-spacing: 1rem;
+border-radius: .5em;
+border: 5px solid rgb(6, 140, 189); 
 }
+
+.columns td {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    background: rgb(6, 140, 189);
+}
+
+td {
+    font-family: 'Open Sans', sans-serif;
+   color: rgb(6, 140, 189);
+    border: 3px solid lightgray;
+    border-radiusL .5em;
+    
+}
+
 
 
 /* Cards */
