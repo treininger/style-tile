@@ -77,16 +77,70 @@ background: url('../img/notebook.png');
 /* Navigation */
 
 nav li {
-    font-family: 'Dosis', sans-serif;
+    
+    display: inline-block;
+    margin: 4px;
+    padding: 1em;
+    background: rgb(6, 140, 189);
+    border-radius: .5em;
+    
 }
 
+nav a {
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover, nav a:focus {
+    color: rgb(228, 225, 242);
+        
+}
+
+/* Links */
+
+a {
+ color: rgb(216, 155, 36);
+    text-decoration: none;
+}
+
+button {
+    border-radius: .5em;
+    background: gray;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+
+
 /* Typography */
+
+h2 {
+    font-family: 'Dosis', sans-serif;
+    color: rgb(6, 140, 189);
+}
+    
+h3 {
+    font-family: 'Shadows Into Light Two', cursive;
+    color: rgb(6, 140, 189);
+    
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
 
 
 /* Forms */
 
 
 /* Tables */
+
+table {
+    border-spacing: 1rem;
+}
 
 
 /* Cards */
