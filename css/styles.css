@@ -82,7 +82,7 @@ nav a:hover, nav a:focus {
 }
 
 button {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background: rgb(189, 123, 40);
     border-radius: .5em;
     color: rgb(241, 243, 241);
@@ -149,7 +149,7 @@ border: 5px solid rgb(6, 140, 189);
 td {
     font-family: 'Open Sans', sans-serif;
    color: rgb(6, 140, 189);
-    border: 3px solid lightgray;
+    border: 3px solid rgba(216, 155, 36, .9);
     border-radiusL .5em;
     
 }
