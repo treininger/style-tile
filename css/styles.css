@@ -33,22 +33,13 @@ background: url('../img/notebook.png');
 }
 
 .pattern-3 {
-    background: url('../img/foggy_birds.png');
+    background: url('../img/tileable_wood_texture.png');
 }
     
 
-/* Imagery */
+/* Imagery in HTML */
 
-.imagery-1 {
-
-
-}
-
-/* Icons */
-
-.icon-1 {
- background: url('../img/iconmonstr-pen-15-icon-256.png');   
-}
+/* Icons in HTML */
 
 /* Navigation */
 
@@ -65,26 +56,36 @@ nav li {
 nav a {
     font-family: 'Dosis', sans-serif;
     text-decoration: none;
-    color: white;
+    color: rgb(241, 243, 241);
+    text-align: center;
 }
 
 nav a:hover, nav a:focus {
-    color: rgb(228, 225, 242);
-        
+    color: rgb(189, 123, 40);       
 }
 
 /* Links */
 
-a {
+.textlink a:link {
  color: rgb(216, 155, 36);
     text-decoration: none;
 }
 
+.textlink a:hover, a:focus {
+    color: rgb(241, 243, 241);
+    text-decoration: none;
+}
+
+.textlink a:visited, a:active {
+    color: rgb(6, 140, 189);
+    text-decoration: none;
+}
+
 button {
-    border-radius: .5em;
-    background: gray;
-    color: white;
     font-family: 'Dosis', sans-serif;
+    background: rgb(189, 123, 40);
+    border-radius: .5em;
+    color: rgb(241, 243, 241);
 
 }
 
@@ -93,39 +94,41 @@ button {
 /* Typography */
 
 h2 {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Shadows Into Light Two', cursive;
     color: rgb(6, 140, 189);
 }
     
 h3 {
-    font-family: 'Shadows Into Light Two', cursive;
-    color: rgb(6, 140, 189);
+    
+    font-family: 'Dosis', sans-serif;
+    color: rgb(189, 123, 40);
     
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
-    color: gray;
+    color: rgb(241, 243, 241);
 }
 
 
 /* Forms */
 
 form {
- background: white;
-border: 3px solid rgb(241, 243, 241);
-    border-radius: .5em;
+ background: rgba(6, 140, 189, .8);
+border: .5em solid rgba(216, 155, 36, .9);
+border-radius: 1%;
 }
 
 label {
     font-family: 'Dosis', sans-serif;
-    color: gray;
+    color: rgb(189, 123, 40);
 }
 
 input {
     font-family: 'Open Sans', sans-serif;
-    border-radius: .5em;
+    border-radius: .3em;
     background: rgb(241, 243, 241);
+    width: 54%;
 }
     
 
